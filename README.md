@@ -49,12 +49,12 @@ The following challenges were encoutered:
 
 ## To Contribute
 1. Clone this repo. (see [tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
-2. See (here)[] for raw csv and column data file
-3. Click (here)[] for the scripts of the work.
+2. See (here)[https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Kc%20house%20cleaned%20data.csv] for raw csv and column data file
+3. Click (here)[https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Final_Project.ipynb] for the scripts of the work.
 
 ## Project Deliverables
-* [Notebook]()
-* [Presentation](https://docs.google.com/presentation/d/1J2IbJzpx24MWSHTaWzQ-j_vJAuh94FAeBG22xHWmDcQ/edit#slide=id.p1)
+* [Notebook](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Final_Project.ipynb)
+* [Presentation]([https://docs.google.com/presentation/d/1J2IbJzpx24MWSHTaWzQ-j_vJAuh94FAeBG22xHWmDcQ/edit#slide=id.p1](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Understanding%20Trends%20In%20Property%20Market%20Value.pptx))
 * Pdf files
 
 ## Group Members
