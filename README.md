@@ -30,8 +30,8 @@ In this project we look at:
 * To what extent does the combined influence of bedrooms and bathrooms affect the price of a house?
 
 ## Correlation Analysis
-'sqft_living' exhibits the highest correlation with 'price', indicating that the size of the living area strongly influences the price of a house.\
-Features like 'grade' and 'sqft_above' also demonstrate significant positive correlations with 'price', suggesting that overall quality and living space contribute substantially to house pricing.
+`sqft_living` exhibits the highest correlation with `price`, indicating that the size of the living area strongly influences the price of a house.\
+Features like `grade` and '`sqft_above`' also demonstrate significant positive correlations with `price`, suggesting that overall quality and living space contribute substantially to house pricing.
 
 Image
 
