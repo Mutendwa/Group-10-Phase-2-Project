@@ -8,10 +8,6 @@ Image
 
 The real estate agency aims to provide comprehensive services to homeowners looking to buy or sell their properties. One significant aspect of their services involves advising homeowners on potential renovations that could increase the estimated value of their homes. This guidance is crucial in assisting homeowners in making informed decisions about investing in renovations that will yield a favourable return on investment (ROI) when they decide to sell their property.
 
-## Methods used
-Linear regression\
-Data Visualization\
-Inferential Statistics
 
 ## Technologies
 Python\
@@ -36,24 +32,20 @@ Features like `grade` and '`sqft_above`' also demonstrate significant positive c
 Image
 
 ## Simple Linear Regression
-The price and grade of living space were chosen to establish the baseline model. This choice was motivated by the strong correlation between these two variables, measured at 0.668. Additionally, grade demonstrated lower collinearity with other predictors, thereby reducing concerns of multicollinearity. We transformed the target variable so that it approaches a normal distribution.
+The `price` was chosen as the target variable and `grade`  as the predictor variable for the baseline model. This choice was motivated by the strong correlation between these two variables, measured at 0.668. The model accounted for ~49.3% of variance observed in the `price`. Additionally, `grade` demonstrated lower collinearity with other predictors, thereby reducing concerns of multicollinearity. We transformed the target variable so that it approaches a normal distribution.
 
 Image
 
 ## Multiple Linear Regression
+More predictors including: `waterfront`, `view`, `grade`,`floors`, `yr_built`, `bedrooms`, `bathrooms`, `sqft_living15` were used for this model. The model explained a variance of ~ 62.9% on the price. All model coefficients are statistically significant, with t-statistic p-values well below 0.05.
 
+Image
 
-The following challenges were encoutered:
-* Limited data
-* High multicollinearity within the variables in the dataset.
+## Polynomial Regression and Model Metrics
+The independent variable(s) and the dependent variable is modeled as an nth-degree polynomial. It extends linear regression by allowing the relationship between variables to be modeled as a curve rather than a straight line. In thic case we use it to determine whether its a better fit compared to the multiple linear regression. The Polynomial regression is a better model in this case, since It explains ~ 64.8% of variance in house `prices` which is slighlty higher than the variance explained using the multiple linear regression . The Root Squared Mean Error for polynomial regression is also lower than that of the linear model.This implies that the polynomial regression performed better.
 
-## Project needs
-* Data Processing and cleaning
-* Descriptive Analysis
-* Linear regression
-* [Presentation](https://docs.google.com/presentation/d/1J2IbJzpx24MWSHTaWzQ-j_vJAuh94FAeBG22xHWmDcQ/edit#slide=id.p1)
+Image
 
-## 
 
 ## Recommendations
 * The shareholder should encourage homeowners to do renovations so as to improve the overall condition and raise the property's grade as this has a great impact on the value of a house. 
@@ -64,11 +56,11 @@ The following challenges were encoutered:
 
 * For price prediction of the houses, we recommend use of Polynomial regression model as it gives a high R- squared value which means that we can get a better and more accurate price value.
 
+## Project Limitations
+* Geographical Focus: The dataset only covers the Northeastern region, limiting its usefulness for predicting housing prices nationwide. This means our findings might not apply to other areas of the country.
 
-## To Contribute
-1. Clone this repo. (see [tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
-2. See [here](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Kc%20house%20cleaned%20data.csv) for raw csv and column data file
-3. Click [here](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Final_Project.ipynb) for the scripts of the work.
+* Multicollinearity: We found that some variables in our dataset are strongly related to each other. This can make our predictions biased or inaccurate.
+
 
 ## Project Deliverables
 * [Notebook](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Final_Project.ipynb)
@@ -79,7 +71,7 @@ The following challenges were encoutered:
 Team Lead: [Diana Olulo](https://github.com/Dee-Olulo)
 
 Other members:\
-[Shuru Ebale](https://github.com)\
+[Shuru Ebale](https://github.com/shuruebale)\
 [Edwin Mutendwa](https://github.com/Mutendwa)\
 [Pheminah Wambui](https://github.com/Pheminah)\
 [Caleb Asati](https://github.com/CarlAK96)
