@@ -2,7 +2,7 @@
 
 This project aims at analysing various factors including: structural features, location, and temporal factors, to understand what influences global housing prices. 
 
-Image
+![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Visuals.png)
 
 ## Business Understanding
 
