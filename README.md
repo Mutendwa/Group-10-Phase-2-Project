@@ -38,6 +38,14 @@ The following challenges were encoutered:
 * [Presentation](https://docs.google.com/presentation/d/1J2IbJzpx24MWSHTaWzQ-j_vJAuh94FAeBG22xHWmDcQ/edit#slide=id.p1)
 
 ## Recommendations
+* The shareholder should encourage homeowners to do renovations so as to improve the overall condition and raise the property's grade as this has a great impact on the value of a house. 
+
+* There is also high impact of square footage of living space on house prices and use this information to justify higher listing prices for properties with more extensive square footage.
+   
+* The number of bathrooms and bedrooms also have a positive correlation with the value of a house. Therefore, during renovation adding a bedroom would increase the value of the house! 
+
+* For price prediction of the houses, we recommend use of Polynomial regression model as it gives a high R- squared value which means that we can get a better and more accurate price value.
+
 
 ## To Contribute
 1. Clone this repo. (see [tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
