@@ -39,7 +39,7 @@ Image
 ## Multiple Linear Regression
 More predictors including: `waterfront`, `view`, `grade`,`floors`, `yr_built`, `bedrooms`, `bathrooms`, `sqft_living15` were used for this model. The model explained a variance of ~ 62.9% on the price. All model coefficients are statistically significant, with t-statistic p-values well below 0.05.
 
-Image
+![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Multiple%20Regression%20model.png)
 
 ## Polynomial Regression and Model Metrics
 The independent variable(s) and the dependent variable is modeled as an nth-degree polynomial. It extends linear regression by allowing the relationship between variables to be modeled as a curve rather than a straight line. In thic case we use it to determine whether its a better fit compared to the multiple linear regression. The Polynomial regression is a better model in this case, since It explains ~ 64.8% of variance in house `prices` which is slighlty higher than the variance explained using the multiple linear regression . The Root Squared Mean Error for polynomial regression is also lower than that of the linear model.This implies that the polynomial regression performed better.
