@@ -8,6 +8,23 @@ This project aims at analysing various factors including: structural features, l
 
 The real estate agency aims to provide comprehensive services to homeowners looking to buy or sell their properties. One significant aspect of their services involves advising homeowners on potential renovations that could increase the estimated value of their homes. This guidance is crucial in assisting homeowners in making informed decisions about investing in renovations that will yield a favourable return on investment (ROI) when they decide to sell their property.
 
+Stakeholder:
+Real Estate Agency
+
+Problem Statement:
+The real estate agency lacks an efficient method and face challenges in understanding the factors influencing the potential increase in the estimated value of a property. Without this capability, homeowners may not receive optimal advice regarding which renovations to pursue and what factors to consider when buying a property, leading to potential dissatisfaction or loss of value. Therefore, there is a pressing need to develop a data-driven solution that can accurately predict the impact of various renovations/House Features on the estimated value of houses, enabling the agency to provide tailored and informed recommendations to homeowners in King City County.
+
+Objectives:
+Analyze the relationship between property attributes such as lot area, no of bedrooms, the grade, condition , etc. and their impact on house prices. Which factors are the most influential and the least on house prices.
+
+Offer Reccomendations: Reccomend insights to the Real Estate Agency that will help them understand how the property attributes impact the value of a property
+
+Research Questions
+What is the combined influence of structural features, location, and temporal factors on the market price of houses, and how can we optimally model these relationships to predict housing prices with high accuracy?
+Is there a statistically significant difference in lot size (sqft_lot) among houses with varying grades?
+Do houses with a waterfront view have a significantly higher average price compared to houses without a view?
+To what extent does the combined influence of bedrooms and bathrooms affect the price of a house?
+
 
 ## Technologies
 Python\
@@ -56,6 +73,12 @@ The independent variable(s) and the dependent variable is modeled as an nth-degr
 * The number of bathrooms and bedrooms also have a positive correlation with the value of a house. Therefore, during renovation adding a bedroom would increase the value of the house! 
 
 * For price prediction of the houses, we recommend use of Polynomial regression model as it gives a high R- squared value which means that we can get a better and more accurate price value.
+  
+• Quality and Lot Size Connection: A property's condition directly correlates with its lot size, highlighting the importance of upkeep and modernization in enhancing market value.
+
+• Premium on Waterfront Views: Properties boasting waterfront views command higher market prices, representing a lucrative investment for buyers and a unique selling proposition for owners.
+
+• Optimal Bedrooms and Bathrooms Mix: The combination of bedrooms and bathrooms significantly impacts house pricing, guiding strategic property selection for buyers and effective marketing for sellers.
 
 ## Project Limitations
 * Geographical Focus: The dataset only covers the Northeastern region, limiting its usefulness for predicting housing prices nationwide. This means our findings might not apply to other areas of the country.
