@@ -108,8 +108,7 @@ Features like `grade` and '`sqft_above`' also demonstrate significant positive c
 ## Simple Linear Regression
 The `price` was chosen as the target variable and `grade`  as the predictor variable for the baseline model. This choice was motivated by the strong correlation between these two variables, measured at 0.668. The model accounted for ~49.3% of variance observed in the `price`. Additionally, `grade` demonstrated lower collinearity with other predictors, thereby reducing concerns of multicollinearity. We transformed the target variable so that it approaches a normal distribution.
 
-![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Simple%20Linear%20regression.png
-)
+![Capture4](https://github.com/Mutendwa/Group-10-Phase-2-Project/assets/151445934/c1b322ae-64b0-4b2a-9061-8ac205160eef)
 
 ## Multiple Linear Regression
 More predictors including: `waterfront`, `view`, `grade`,`floors`, `yr_built`, `bedrooms`, `bathrooms`, `sqft_living15` were used for this model. The model explained a variance of ~ 62.9% on the price. All model coefficients are statistically significant, with t-statistic p-values well below 0.05.
@@ -117,9 +116,12 @@ More predictors including: `waterfront`, `view`, `grade`,`floors`, `yr_built`, `
 ![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Multiple%20Regression%20model.png)
 
 ## Polynomial Regression and Model Metrics
-The independent variable(s) and the dependent variable is modeled as an nth-degree polynomial. It extends linear regression by allowing the relationship between variables to be modeled as a curve rather than a straight line. In thic case we use it to determine whether its a better fit compared to the multiple linear regression. The Polynomial regression is a better model in this case, since It explains ~ 64.8% of variance in house `prices` which is slighlty higher than the variance explained using the multiple linear regression . The Root Squared Mean Error for polynomial regression is also lower than that of the linear model.This implies that the polynomial regression performed better.
+The independent variable(s) and the dependent variable is modeled as an nth-degree polynomial. It extends linear regression by allowing the relationship between variables to be modeled as a curve rather than a straight line. In this case we use it to determine whether its a better fit compared to the multiple linear regression. The Polynomial regression is a better model in this case, since It explains ~ 64.8% of variance in house `prices` which is slighlty higher than the variance explained using the multiple linear regression . The Root Squared Mean Error for polynomial regression is also lower than that of the linear model.This implies that the polynomial regression performed better.
 
-![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Residual%20plots%20polynomial%20regression.png)
+![Capture3](https://github.com/Mutendwa/Group-10-Phase-2-Project/assets/151445934/fb16e8aa-4b83-4c0d-8e4f-7aaee704ac56)
+
+The plot above shows the difference between the predictedvalues and the actual values.
+The spread of the residuals of the polynomial regression seems to be fairly constant across the range of fitted values. This suggests that the assumption of homoscedasticity may be met.
 
 
 ## Recommendations
