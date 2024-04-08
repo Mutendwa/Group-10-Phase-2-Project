@@ -5,15 +5,17 @@ This project aims at analysing various factors including: structural features, l
 ![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Visuals.png)
 
 ### summary of project with all steps
-Importing the data
+Business Understanding
 
-Data cleaning/ Data preparation
+Data Understanding
+
+Data  preparation
 
 Data modelling
 
 Statistical tests
 
-Recommendationa
+Recommendations
 
 Conclusion
 
