@@ -31,30 +31,52 @@ To what extent does the combined influence of bedrooms and bathrooms affect the 
 The dataset comprises 21,597 entries across 21 columns, reflecting various aspects of housing data. Most columns show a non-null count, indicating a relatively complete dataset. However, there are some key points to note regarding potential missing values.
 
 ### Column Names and Descriptions for King County Data Set
-*Property Attributes
+#### Property Attributes
 
 id - Unique identifier for a house
+
 date - Date house was sold
+
 price - Sale price (target variable)
+
 bedrooms - Number of bedrooms
+
 bathrooms - Number of bathrooms
+
 sqft_living - Square footage of living space in the home
+
 sqft_lot - Square footage of the lot
+
 floors - Number of floors (levels) in house
+
 waterfront - Whether the house is on a waterfront eg a lake
+
 view - Quality of view from house
+
 condition - How good the overall condition of the house is. Related to maintenance of house. explanation of each condition code
+
 grade - Overall grade of the house. Related to the construction and design of the house. explanation of each building grade code
+
 sqft_above - Square footage of house apart from basement
+
 sqft_basement - Square footage of the basement
+
 yr_built - Year when house was built
+
 yr_renovated - Year when house was renovated
+
 zipcode - ZIP Code used by the United States Postal Service
+
 lat - Latitude coordinate
+
 long - Longitude coordinate
+
 sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
+
 sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
-Data Source and it’s suitability for the project
+
+### Data Source and it’s suitability for the project
+
 The data source utilized for our analysis was obtained from GitHub, specifically from the House Price Dataset uploaded by Learn-Co-Curriculum in 2021. This dataset includes variables such as date, view, square footage of above-ground living space, square footage of basements, year of renovation, zipcode, latitude, longitude, square footage of living areas, and square footage of lots. These variables are crucial for addressing our research questions.
 
 Reference Learn-Co-Curriculum. (2021). House Price Dataset. GitHub. https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3
@@ -119,7 +141,12 @@ The independent variable(s) and the dependent variable is modeled as an nth-degr
 * Geographical Focus: The dataset only covers the Northeastern region, limiting its usefulness for predicting housing prices nationwide. This means our findings might not apply to other areas of the country.
 
 * Multicollinearity: We found that some variables in our dataset are strongly related to each other. This can make our predictions biased or inaccurate.
+### Conclusion
+The study into the dynamics of housing price determinants underscores the complexity and multifaceted nature of real estate markets. The study reveals that a deep and nuanced understanding of regional trends, economic indicators, and a plethora of other variables is essential for crafting accurate and reliable predictive models. The insights gained from this research highlight the importance of adopting comprehensive and sophisticated analytical frameworks that can accommodate the intricate interplay of factors affecting housing prices.
 
+Moreover, the findings underscore the value of continuous refinement and expansion of data collection methodologies, emphasizing the need for high-quality, diverse datasets. Such datasets are crucial for developing models that are not only robust and predictive but also reflective of the real-world variability and diversity of housing markets across different regions.
+
+This research, therefore, not only contributes to the academic discourse on housing price prediction but also provides practical insights for policymakers, urban planners, and investors. By fostering a deeper understanding of market dynamics and improving predictive methodologies, we can better navigate the complexities of the housing market, ultimately contributing to more sustainable and equitable urban development.
 
 ## Project Deliverables
 * [Notebook](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Final_Project.ipynb)
