@@ -4,6 +4,14 @@ This project aims at analysing various factors including: structural features, l
 
 ![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Visuals.png)
 
+### summary of project with all steps
+Importing the data
+Data cleaning/ Data preparation
+Data modelling
+Statistical tests
+Recommendationa
+Conclusion
+
 ## Business Understanding
 
 The real estate agency aims to provide comprehensive services to homeowners looking to buy or sell their properties. One significant aspect of their services involves advising homeowners on potential renovations that could increase the estimated value of their homes. This guidance is crucial in assisting homeowners in making informed decisions about investing in renovations that will yield a favourable return on investment (ROI) when they decide to sell their property.
@@ -149,6 +157,9 @@ The study into the dynamics of housing price determinants underscores the comple
 Moreover, the findings underscore the value of continuous refinement and expansion of data collection methodologies, emphasizing the need for high-quality, diverse datasets. Such datasets are crucial for developing models that are not only robust and predictive but also reflective of the real-world variability and diversity of housing markets across different regions.
 
 This research, therefore, not only contributes to the academic discourse on housing price prediction but also provides practical insights for policymakers, urban planners, and investors. By fostering a deeper understanding of market dynamics and improving predictive methodologies, we can better navigate the complexities of the housing market, ultimately contributing to more sustainable and equitable urban development.
+
+
+
 
 ## Project Deliverables
 * [Notebook](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Final_Project.ipynb)
