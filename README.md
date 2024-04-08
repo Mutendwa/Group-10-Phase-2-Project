@@ -6,10 +6,15 @@ This project aims at analysing various factors including: structural features, l
 
 ### summary of project with all steps
 Importing the data
+
 Data cleaning/ Data preparation
+
 Data modelling
+
 Statistical tests
+
 Recommendationa
+
 Conclusion
 
 ## Business Understanding
