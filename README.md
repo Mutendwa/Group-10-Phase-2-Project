@@ -9,9 +9,11 @@ This project aims at analysing various factors including: structural features, l
 The real estate agency aims to provide comprehensive services to homeowners looking to buy or sell their properties. One significant aspect of their services involves advising homeowners on potential renovations that could increase the estimated value of their homes. This guidance is crucial in assisting homeowners in making informed decisions about investing in renovations that will yield a favourable return on investment (ROI) when they decide to sell their property.
 
 Stakeholder:
+
 Real Estate Agency
 
-Problem Statement:
+### Problem Statement:
+
 The real estate agency lacks an efficient method and face challenges in understanding the factors influencing the potential increase in the estimated value of a property. Without this capability, homeowners may not receive optimal advice regarding which renovations to pursue and what factors to consider when buying a property, leading to potential dissatisfaction or loss of value. Therefore, there is a pressing need to develop a data-driven solution that can accurately predict the impact of various renovations/House Features on the estimated value of houses, enabling the agency to provide tailored and informed recommendations to homeowners in King City County.
 
 Objectives:
