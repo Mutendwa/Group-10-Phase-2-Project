@@ -4,7 +4,7 @@ This project aims at analysing various factors including: structural features, l
 
 ![Image](https://github.com/Mutendwa/Group-10-Phase-2-Project/blob/main/Images/Visuals.png)
 
-### summary of project with all steps
+### Summary of the project with all steps
 Business Understanding
 
 Data Understanding
@@ -25,22 +25,22 @@ The real estate agency aims to provide comprehensive services to homeowners look
 
 Stakeholder:
 
-Real Estate Agency
+#### Real Estate Agency
 
 ### Problem Statement:
 
 The real estate agency lacks an efficient method and face challenges in understanding the factors influencing the potential increase in the estimated value of a property. Without this capability, homeowners may not receive optimal advice regarding which renovations to pursue and what factors to consider when buying a property, leading to potential dissatisfaction or loss of value. Therefore, there is a pressing need to develop a data-driven solution that can accurately predict the impact of various renovations/House Features on the estimated value of houses, enabling the agency to provide tailored and informed recommendations to homeowners in King City County.
 
 Objectives:
-Analyze the relationship between property attributes such as lot area, no of bedrooms, the grade, condition , etc. and their impact on house prices. Which factors are the most influential and the least on house prices.
+Analyze the relationship between property attributes such as lot area, no of bedrooms, grade, condition, etc. and their impact on house prices. Which factors are the most influential and the least on house prices.
 
-Offer Reccomendations: Reccomend insights to the Real Estate Agency that will help them understand how the property attributes impact the value of a property
+Offer Recommendations: Recommend insights to the Real Estate Agency that will help them understand how the property attributes impact the value of a property
 
-Research Questions
-What is the combined influence of structural features, location, and temporal factors on the market price of houses, and how can we optimally model these relationships to predict housing prices with high accuracy?
-Is there a statistically significant difference in lot size (sqft_lot) among houses with varying grades?
-Do houses with a waterfront view have a significantly higher average price compared to houses without a view?
-To what extent does the combined influence of bedrooms and bathrooms affect the price of a house?
+#### Research Questions
+1. What is the combined influence of structural features, location, and temporal factors on the market price of houses, and how can we optimally model these relationships to predict housing prices with high accuracy?
+2. Is there a statistically significant difference in lot size (sqft_lot) among houses with varying grades?
+3. Do houses with a waterfront view have a significantly higher average price compared to houses without a view?
+4. To what extent does the combined influence of bedrooms and bathrooms affect the price of a house?
 
 ### Data Understanding
 The dataset comprises 21,597 entries across 21 columns, reflecting various aspects of housing data. Most columns show a non-null count, indicating a relatively complete dataset. However, there are some key points to note regarding potential missing values.
@@ -96,8 +96,6 @@ The data source utilized for our analysis was obtained from GitHub, specifically
 
 Reference Learn-Co-Curriculum. (2021). House Price Dataset. GitHub. https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3
 
-### LImitation
-Nonetheless, it is important to acknowledge that this dataset, being from 2021, may not fully reflect the current market conditions. Market dynamics could have shifted in the intervening period, potentially impacting the relevance of our analysis. Additionally, as this is secondary data, there may be limitations regarding its accuracy and applicability to our current study.
 ## Technologies
 Python\
 Jupyter\
